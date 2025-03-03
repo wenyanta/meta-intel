@@ -20,7 +20,7 @@ DEPENDS += "libva gmmlib"
 
 SRC_URI = "git://github.com/intel/media-driver.git;protocol=https;nobranch=1 \
            file://0001-Force-ARGB-surface-to-tile4-for-ACM.patch \
-           file://0001-Fix-failed-4k-videowalll-test-case-and-color-corrupt.patch \
+	   file://0001-Fix-failed-4k-videowalll-test-case-and-color-corrupt.patch \
            file://0001-Change-RGB-mask-and-order-for-BMG.patch \
           "
 
